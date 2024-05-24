@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanHive</title>
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+    <video autoplay loop muted plays-inline class="video">
+        <source src="img/login-bg.mp4" type="video/mp4">
+    </video>
+
+    <section class="header">
+        <a href="#"> <img src="img/logo.png" class="logo" alt="UrbanHive" style="height: 50px; width: 180px"> </a>
+
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html" class="active">Login/Sign up</a></li>
+                <li><a href="contact.html">Sell</a></li>
+                <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- login page -->
+    <section class="login">
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+
+                <form action="#">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bx-user' ></i>
+
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class='bx bx-lock-alt' ></i>
+                    </div>
+
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="forgotpwd.html">Forgot password ?</a> 
+                    </div>
+
+                    <button type="submit" class="btn">Login</button>
+
+                    <div class="register-link">
+                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                    
+                    </div>
+                </form>
+
+        </div>
+        
+        
+    </section>
+    
+
+   
+
+    <script src="logic.js"></script>
+    <script src="https://kit.fontawesome.com/7be167152e.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
