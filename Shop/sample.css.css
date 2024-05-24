@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+h1{
+    font-size: 58px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 22px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+
+#bestsellers {
+    text-align: center;
+    margin-top: 7vh;
+}
+
+#bestsellers h2{
+    font-weight: 200;
+    color: rgba(0,0,0,0.7);
+}
+
+#bestsellers p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+#bestsellers .product-cont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#bestsellers .product{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-color: rgba(26, 26, 26, 0.2);border-radius: 15px;
+    margin-top: 4vh;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+#bestsellers .product:hover{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+    transition: 0.3s ease-in-out;
+}
+
+#bestsellers .product img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#bestsellers .product .desc{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#bestsellers .product .desc span{
+    color: rgba(40, 40, 40, 0.624);
+    font-weight: 400;
+}
+
+#bestsellers .product .desc h5{
+    font-size: 17px;
+    padding-top: 2px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+#bestsellers .product .desc i{
+    color: gold;
+    font-size: 12px;
+}
+
+#bestsellers .product .desc h4{
+    font-size: larger;
+    color: #088178;
+    font-weight: 500;
+}
+
+#bestsellers .product .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #4c4c4c37;
+    color:#1a1a1a;
+    border: 1px solid;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
